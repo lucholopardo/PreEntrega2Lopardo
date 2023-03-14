@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Bootstrap from './bootstrap/navbar';
+import cartWidget from "./CartWidget"
 
-
-function App() {
-  return (
+function App () { 
+  return ( 
+    
     <div className="App">
+      <Bootstrap/>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,7 +24,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
