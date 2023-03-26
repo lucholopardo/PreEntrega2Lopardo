@@ -1,5 +1,5 @@
 import  react  from "react";
-import Carrito from "../CartWidget.js";
+import Carrito from "../../CartWidget.js";
 
 function Bootstrap() {
     return (
@@ -24,7 +24,7 @@ function Bootstrap() {
             </ul>
             <form className="d-flex" role="search">
     
-              <button className="btn btn-outline-success" type="submit"> Carrito </button>
+              <button className="btn btn-outline-success" type="submit"> carrito </button>
             </form>
           </div>
         </div>

@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Bootstrap from './bootstrap/navbar';
-import cartWidget from "./CartWidget"
+import "./components/navbar/navbar"
+
+
 
 function App () { 
   return ( 
     
     <div className="App">
-      <Bootstrap/>
+      <bo/>
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
