@@ -1,9 +1,9 @@
-import "./item.css";
+import "./Item.css";
 import { useState } from "react";
-import Button from "../Button/Button";
+import { Button } from "bootstrap";
 import { Link } from "react-router-dom";
 
-export default function Item(props) {
+export default Item; function Item(props) {
   const [fav, setFav] = useState(false);
 
   function handleFavorite() {

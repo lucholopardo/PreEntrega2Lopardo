@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Item from "../Item";
+import Item from "../Item/Item";
 import Flex from "../Flex/Flex";
-
+import { useParams } from "react-router-dom";
 /* ------------- Mock async Service -------------------  */
-import productsDatabase from "../../data/products";
+import productsDatabase from "../../data/product";
 
 function getItems() {
   const promesa = new Promise((resolve) => {
